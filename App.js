@@ -3,8 +3,7 @@ import { Alert } from "react-native";
 import Loading from "./Loading";
 import * as Location from "expo-location";
 import Weather from "./Weather";
-
-const API_KEY = "ace64d5a35d1af5e3c51f9443509bfae";
+import { API_KEY } from "@env";
 
 export default class extends React.Component {
   state = {
